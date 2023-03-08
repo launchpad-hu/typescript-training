@@ -1,11 +1,5 @@
 {
-    "image":"mcr.microsoft.com/devcontainers/universal:2",
-    "initializeCommand": "npm install",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "dbaeumer.vscode-eslint"
-            ]
-        }
-    }
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "postCreateCommand": "npm install && npm install -g ts-node",
+  "extensions": ["dbaeumer.vscode-eslint"]
 }

@@ -4,8 +4,7 @@
 // TODO ellenőrizd, hogy aláhúzza-e a szerkesztőd a TODO kommenteket. Ha nem, konfiguráld be az eslint-et!
 // TODO töröld a TODO szót a sor elejéről, ha kész vagy vele!
 
-// TODO csinálj npm install-t
-// TODO futtasd ezt a fájlt ts-node-dal, és nézd meg a kimenetet!
+// TODO futtasd ezt a fájlt ts-node-dal (ts-node 1_basic_types/1.1_primitive_types.ts), és nézd meg a kimenetet!
 // TODO lesznek benne hibák, ezért nem fut. Futtasd `ts-node -T` paranccsal! (Ez a hibák ellenére futtatja.)
 
 // Fontos tudni, hogy a TypeScript fordítási idejű (compile time) típusrendszerének
