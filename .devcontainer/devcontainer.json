@@ -1,0 +1,11 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "initializeCommand": "npm install",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint"
+            ]
+        }
+    }
+}
