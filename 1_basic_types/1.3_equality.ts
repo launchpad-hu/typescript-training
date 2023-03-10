@@ -1,8 +1,14 @@
 // Equality Operators
-// TypeScriptben, csakúgy mint JavaScriptben két egyenlőségjel van: == és ===
-// Az === operátor mindig false-t ad vissza, ha a futásidejű típusok nem egyeznek.
+// TypeScriptben és JavaScriptben két egyenlőségjel van: == és ===
+
+// A === az igazi egyenlőség, és ezt használjuk általában.
+const arr = [2, 3, '3', 3n, [3]]
+console.log(arr.filter((x) => x === 3))
 
 // A == operátor bajosabb:
+// console.log(arr.filter((x) => x == 3))
+// TODO próbáld ki a fenti sort!
+
 let result: number | string
 if (something()) {
   result = 3
