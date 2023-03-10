@@ -5,7 +5,8 @@
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "MS-vsliveshare.vsliveshare"
+        "MS-vsliveshare.vsliveshare",
+        "formulahendry.code-runner"
       ]
     }
   }
