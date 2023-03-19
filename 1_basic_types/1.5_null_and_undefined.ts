@@ -5,12 +5,12 @@
 // null és undefined
 let u: undefined = undefined
 let n: null = null
-// console.log('u is', typeof u)
-// console.log('n is', typeof n)
-// TODO futtasd a fenti logolásokat - milyen furcsát veszel észre?
+console.log(u)
+console.log(n)
 // Válasz:
 
-const num = 0
+let num = 0
+let semmi
 
 // TODO próbáld ki az alábbi egyenláség-vizsgálatokat, és nézd meg, hogy milyen eredményt kapsz!
 // console.log('num === undefined', num === undefined)
@@ -24,6 +24,10 @@ const num = 0
 // console.log('undefined === null', undefined === null)
 // Válasz:
 // console.log('undefined == null', undefined == null)
+// Válasz:
+// console.log('semmi === undefined', semmi === undefined)
+// Válasz:
+// console.log('semmi == null', semmi == null)
 // Válasz:
 
 // TODO fogalmazd meg a szabályt, ami alapján a fenti kifejezések működnek!
@@ -44,6 +48,7 @@ const marriageYear: number | null = null
 // TODO írd ki a marriageYear-t, de szép formában, ha null, akkor azt írd ki, hogy "(nincs)"
 // használj if-et
 
+// marriageYear = 2000
 // TODO ugyanez, csak használd a ? : operátort
 
 // TODO ugyanez, csak használd a ?? operátort
