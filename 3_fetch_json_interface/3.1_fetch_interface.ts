@@ -2,7 +2,7 @@
 // TODO telepítsd a Node Version Manager-rel:
 // nvm install 18
 
-// 2. ez a fájl top-level await-et használ, ezért a tsconfig.json-ben kell a
+// TODO ez a fájl top-level await-et használ, ezért a tsconfig.json-ben kell a
 // "module": "es2020" beállítás és a package.json-ben a "type": "module" beállítás
 
 export {}
@@ -20,6 +20,8 @@ const response = await fetch(url)
 const result = await response.json()
 console.log(result.data.entry.stopTimes)
 
-// TODO Írd ki szépen formázva az indulási időt és a célállomást. (A járat számát most nem kell.)
+// TODO Írd ki szépen formázva az indulási időt, a járat számát és a célállomást. Pl.
+// 17:20:03  5 - Pasaréti tér
+// 17:28:00  8E - Farkasréti út
 
-// TODO A függvény paraméterében a típus `any` volt. Definiáld a result típusát `interface`-ekkel.
+// TODO Közben sok típus `any` lesz, ami nehezíti a munkát. Definiálj interface-eket az adatokhoz.
