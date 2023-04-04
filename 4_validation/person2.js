@@ -1,10 +1,10 @@
-export default {
+module.exports = {
   name: 'John Doe',
   age: 42,
   address: {
-    street: '123 Main St',
+    streetAddress: '123 Main St',
     city: 'Anytown',
     state: 'CA',
-    zip: '12345',
+    zipCode: 12345,
   },
 }
