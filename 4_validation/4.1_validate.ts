@@ -3,6 +3,7 @@ export interface Person {
   name: string
   age: number
   address: Address
+  emails: string[]
 }
 
 export interface Address {
@@ -19,9 +20,15 @@ const person2 = require('./person2')
 // A data1 és data2 változóban van valamilyen adat, elvileg megfelel a Person interface-nek,
 // de nem tudhatjuk biztosan.
 
-// Validáld, hogy az adat tényleg olyan formátumú-e.
-// Ha nem, dobj egy Error-t hogy mi a probléma az adatokkal!
+// Validáld, hogy az adat tényleg olyan formátumú-e. A validate függvény
+// - ha megfelelő az adat, akkor ne csináljon semmit
+// - ha nem, dobjon egy Error-t
+
+export function validate(p: unknown) {
+  // TODO
+}
 
 // pár ötlet:
-//console.log('age' in person1)
-//console.log(typeof person1.age)
+// 'age' in person1
+// typeof person1.age
+// Array.isArray
