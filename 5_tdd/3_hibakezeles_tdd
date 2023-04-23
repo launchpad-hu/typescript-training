@@ -1,0 +1,14 @@
+A függvény kezelje a hibákat
+
+- ha a sztring üres
+- ha a sztring nem tartalmaz házszámot
+- ha a sztring nem tartalmaz utcanevet
+
+Készítsd el ezeket a funkciókat úgy, hogy:
+
+1. megírsz egyetlen teszted
+2. lefuttatod, hogy piros-e
+3. megírod hozzá a funkciót a függvényben
+4. lefuttatod a tesztet, hogy zöld-e
+
+Majd folytatod a következő funkcióval ugyanígy.
